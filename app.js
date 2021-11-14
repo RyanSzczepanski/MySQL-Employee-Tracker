@@ -263,7 +263,7 @@ const updateRole = () => {
 }
 
 const exit = () => {
-    process.exit(1)
+    db.end();
 }
 
 mainInquirer();
